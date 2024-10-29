@@ -1,6 +1,5 @@
 import logo from './logo.svg';
 import './App.css';
-
 import Menu from './Components/Menu'
 
 function App() {
@@ -11,16 +10,7 @@ function App() {
         <div className='Menu'>
           Hello World
         </div>
-
-         <Menu></Menu> 
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+           <Menu></Menu> 
       </header>
     </div>
   );
