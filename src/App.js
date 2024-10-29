@@ -18,19 +18,10 @@ function App() {
            Budget Education and Consultancy
         </div>
 
-        <div className='Menu'>
+        <div className='Menu'>  
            
         </div>
-
          <Menu>  </Menu> 
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
       </header>
     </div>
   );
