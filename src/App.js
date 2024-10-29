@@ -1,8 +1,9 @@
-
+import React from "react";
 import './App.css';
 import Menu from './Components/Menu'
 
 import Officiallogo from './Assests/Officiallogo.jpg'
+import HomeButton from './Components/HomeButton'
 
 function App() {
   return (
@@ -18,9 +19,11 @@ function App() {
            Budget Education and Consultancy
         </div>
 
-        <div className='Menu'>  
-           
-        </div>
+        <div classname='HomeButton'>
+          <HomeButton />
+        </div>  
+
+        <div className='Menu'>  </div>
          <Menu>  </Menu> 
       </header>
     </div>
