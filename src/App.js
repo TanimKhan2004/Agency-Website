@@ -1,16 +1,36 @@
-import logo from './logo.svg';
+
 import './App.css';
 import Menu from './Components/Menu'
+
+import Officiallogo from './Assests/Officiallogo.jpg'
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <div className='Menu'>
-          Hello World
+      
+
+         {/* Display the Officiallogo image */}
+         
+         <img src={Officiallogo} alt="Official Logo" className="Official-logo" />
+
+        <div className='Name'>
+           Budget Education and Consultancy
         </div>
-           <Menu></Menu> 
+
+        <div className='Menu'>
+           
+        </div>
+
+         <Menu>  </Menu> 
+        <a
+          className="App-link"
+          href="https://reactjs.org"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn React
+        </a>
       </header>
     </div>
   );
