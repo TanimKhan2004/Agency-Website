@@ -1,9 +1,9 @@
-
+import React from "react";
 import './App.css';
-
 import Menu from './Components/Menu'
 
 import Officiallogo from './Assests/Officiallogo.jpg'
+import HomeButton from './Components/HomeButton'
 
 function App() {
   return (
@@ -19,19 +19,12 @@ function App() {
            Budget Education and Consultancy
         </div>
 
-        <div className='Menu'>
-           
-        </div>
+        <div classname='HomeButton'>
+          <HomeButton />
+        </div>  
 
+        <div className='Menu'>  </div>
          <Menu>  </Menu> 
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
       </header>
     </div>
   );
