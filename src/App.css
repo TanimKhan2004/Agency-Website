@@ -18,12 +18,10 @@ color: black;
 }
 
 .Official-logo {
-  width: 50px; /* Adjust width as needed */
-  height: 50px; /* Maintains aspect ratio */
-  margin-top: 5%; /* Adds space above */
+  width: 50px; 
+  height: 50px; 
+  margin-top: 5%; 
 }
-
-
-.Menu {
-  color: rgb(144, 21, 21);
-  }
+.App-body {
+  border-top: 2px solid blueviolet; /* Border color and thickness */
+}

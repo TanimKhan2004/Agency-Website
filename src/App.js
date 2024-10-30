@@ -32,13 +32,18 @@ function App() {
       <main className="App-main">
         <Outlet /> {/* Outlet will render the child routes */}
       </main>
+      {/* Body of the app */}
+    <div className="App-body">
 
-      {/* Bottom Navigation */}
+    </div>
+            {/* Bottom Navigation */}
+
       <div className="App-bottom-nav">
         <Link className="nav-link" to="/privacy">Privacy Policy</Link>
         <Link className="nav-link" to="/terms">Terms of Use</Link>
         <Link className="nav-link" to="/faq">FAQ</Link>
       </div>
+    
     </div>
   );
 }
