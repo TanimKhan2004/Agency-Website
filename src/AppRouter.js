@@ -22,9 +22,9 @@ export default function AppRouter(){
      <Courses/>
      <Portal/>*/}
      <Search/>
-     {/*<Services/>
+     {/*<Services/>*/}
      <Updates/>
-     <Terms/> */}
+     {/*<Terms/> */}
     <Routes>
       <Route path ={'/'} element = {<App/>}>
         <Route path = {'/Home'} element = {<Home/>}/> 
