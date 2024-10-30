@@ -1,11 +1,11 @@
-.services-container {
+.Cources-container {
     top: 20px;
-    left: 34.5%;
+    left: 34.9%;
     position: relative; /* Keep position relative for dropdown */
     display: inline-block; /* Keep container inline */
 }
 
-#Services {
+#Cources {
     background-color: #ffffff;
     color: blueviolet;
     padding: 5px 10px;
@@ -15,16 +15,16 @@
     font-weight: bold;
     cursor: default; /* Change cursor to default */
     transition: background-color 0.3s; /* Keep hover transition */
-    text-align: center; /* Center the text */
+    text-align: center;  /*Center the text */
 }
 
-#Services:hover,
-.services-container:hover #Services {
+#Cources:hover,
+.Cources-container:hover #Cources {
     background-color: blueviolet; /* Change background color on hover or when dropdown is shown */
     color: #ffffff; /* Change text color on hover */
 }
 
-.services-container:hover .dropdown {
+.Cources-container:hover .dropdown {
     display: block; /* Show dropdown on container hover */
 }
 

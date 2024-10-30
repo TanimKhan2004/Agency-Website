@@ -2,8 +2,8 @@ import {Routes, Route, BrowserRouter as Router} from "react-router-dom"
 import App from "./App";
 import Home from "./Components/Home";
 import About from "./Components/About";
-import Abroad from "./Components/Abroad";
-import Courses from "./Components/Courses";
+import Cources from "./Components/Cources";
+import StudyAbroad from "./Components/StudyAbroad";
 import Portal from "./Components/Portal";
 import Search from "./Components/Search";
 import Services from "./Components/Services";
@@ -18,19 +18,19 @@ export default function AppRouter(){
   <Router>
      <Home/>
      <About/>
-    {/* <Abroad/>
-     <Courses/>
-     <Portal/>*/}
-     <Search/>
      <Services/>
+     <Portal/>
+     <Search/>
+     <StudyAbroad/>
+     <Cources/>
      <Updates/>
      {/*<Terms/> */}
     <Routes>
       <Route path ={'/'} element = {<App/>}>
         <Route path = {'/Home'} element = {<Home/>}/> 
         <Route path = {'/About'} element = {<About/>}/>
-        <Route path = {'/Abroad'} element = {<Abroad/>}/>
-        <Route path = {'/Courses'} element = {<Courses/>}/>
+        <Route path = {'/Cources'} element = {<Cources/>}/>
+        <Route path = {'/StudyAbroad'} element = {<StudyAbroad/>}/>
         <Route path = {'/Portal'} element = {<Portal/>}/>
         <Route path = {'/Search'} element = {<Search/>}/>
         <Route path = {'/Services'} element = {<Services/>}/> 
