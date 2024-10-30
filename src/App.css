@@ -1,14 +1,14 @@
 
 .App-header {
-  background-color: #ffffff;
-  min-height: 100vh;
+  max-width: 1500px; /* Adjust width as needed */
+  margin: 0 auto; /* Centers the container */
+  padding: 20px; /* Adds padding around the header */
+  background-color: white; /* Ensures the background is white */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
   display: flex;
-  flex-direction: column;
+  flex-direction: column; /* Stacks logo and name vertically */
   align-items: center;
-  font-size: calc(10px + 2vmin);
-  
 }
-
 .App-link {
   color: #61dafb;
 }
@@ -18,9 +18,9 @@ color: black;
 }
 
 .Official-logo {
-  width: 100px; /* Adjust width as needed */
-  height: auto; /* Maintains aspect ratio */
-  margin-top: 20px; /* Adds space above */
+  width: 50px; /* Adjust width as needed */
+  height: 50px; /* Maintains aspect ratio */
+  margin-top: 5%; /* Adds space above */
 }
 
 
