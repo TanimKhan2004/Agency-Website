@@ -14,11 +14,20 @@ import Terms from "./Components/Terms";
 
 export default function AppRouter(){
   return (
-
+      
   <Router>
+     <Home/>
+     <About/>
+    {/* <Abroad/>
+     <Courses/>
+     <Portal/>
+     <Search/>
+     <Services/>
+     <Updates/>
+     <Terms/> */}
     <Routes>
       <Route path ={'/'} element = {<App/>}>
-        <Route index element={<Home/>}/>
+        <Route path = {'/Home'} element = {<Home/>}/> 
         <Route path = {'/About'} element = {<About/>}/>
         <Route path = {'/Abroad'} element = {<Abroad/>}/>
         <Route path = {'/Courses'} element = {<Courses/>}/>
