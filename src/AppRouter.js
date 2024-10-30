@@ -20,9 +20,9 @@ export default function AppRouter(){
      <About/>
     {/* <Abroad/>
      <Courses/>
-     <Portal/>
+     <Portal/>*/}
      <Search/>
-     <Services/>
+     {/*<Services/>
      <Updates/>
      <Terms/> */}
     <Routes>
