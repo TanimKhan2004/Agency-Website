@@ -8,7 +8,7 @@ function About() {
 
     return (
         <button id="About" onClick={navigateToAbout}>
-            About
+            About Us
         </button>
     );
 }
