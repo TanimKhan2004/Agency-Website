@@ -1,16 +1,7 @@
-import React from "react";
-import "./Home.css"; 
+import React from 'react';
 
-function Home() {
-    const navigateToHome = () => {
-        window.location.href = "http://localhost:3000/";
-    };
+const Home = () => {
+  return <div></div>;
+};
 
-    return (
-        <button id="Home" onClick={navigateToHome}>
-            Home
-        </button>
-    );
-}
-
-export default Home;
+export default Home; // Default export

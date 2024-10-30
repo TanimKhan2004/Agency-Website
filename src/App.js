@@ -1,8 +1,9 @@
 import React from "react";
 import './App.css';
-import { Link, Outlet } from "react-router-dom";
+import { Link, Outlet } from "react-router-dom"; 
 import Officiallogo from "./Assets/Officiallogo.jpg";
 import Header from "./Components/Header";
+
 
 function App() {
   return (
@@ -16,20 +17,20 @@ function App() {
       {/* Main Navigation */}
       <Header />
       <nav className="App-nav">
-        {/* <Link className="nav-link" to="/">Home</Link> */}
-        <Link className="nav-link" to="/about">About</Link>
-        <Link className="nav-link" to="/abroad">Abroad</Link>
-        <Link className="nav-link" to="/courses">Courses</Link>
-        <Link className="nav-link" to="/portal">Portal</Link>
-        <Link className="nav-link" to="/search">Search</Link>
-        <Link className="nav-link" to="/services">Services</Link>
-        <Link className="nav-link" to="/updates">Updates</Link>
-        <Link className="nav-link" to="/terms">Terms</Link>
+        <Link className="nav-link" to="/">Home</Link> 
+        <Link className="nav-link" to="/About">About</Link>
+        <Link className="nav-link" to="/Abroad">Abroad</Link>
+        <Link className="nav-link" to="/Courses">Courses</Link>
+        <Link className="nav-link" to="/Portal">Portal</Link>
+        <Link className="nav-link" to="/Search">Search</Link>
+        <Link className="nav-link" to="/Services">Services</Link>
+        <Link className="nav-link" to="/Updates">Updates</Link>
+        <Link className="nav-link" to="/Terms">Terms</Link>
       </nav>
 
       {/* Main Content */}
       <main className="App-main">
-        <Outlet />
+        <Outlet /> {/* Outlet will render the child routes */}
       </main>
 
       {/* Bottom Navigation */}
