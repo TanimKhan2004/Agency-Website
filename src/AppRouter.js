@@ -22,7 +22,7 @@ export default function AppRouter(){
      <Courses/>
      <Portal/>*/}
      <Search/>
-     {/*<Services/>*/}
+     <Services/>
      <Updates/>
      {/*<Terms/> */}
     <Routes>
