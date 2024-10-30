@@ -1,12 +1,12 @@
 
 .App-header {
-  max-width: 1500px; /* Adjust width as needed */
-  margin: 0 auto; /* Centers the container */
-  padding: 20px; /* Adds padding around the header */
-  background-color: white; /* Ensures the background is white */
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
+  max-width: 1500px; 
+  margin: 0 auto; 
+  padding: 20px; 
+  background-color: white; 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
   display: flex;
-  flex-direction: column; /* Stacks logo and name vertically */
+  flex-direction: column; 
   align-items: center;
 }
 .App-link {

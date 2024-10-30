@@ -20,7 +20,7 @@ function App() {
         <Link className="nav-link" to="/"></Link>
         <Link className="nav-link" to="/About"></Link>
         <Link className="nav-link" to="/Abroad"></Link>
-        <Link className="nav-link" to="/Courses"></Link>
+        <Link className="nav-link" to="/StudyAbroad"></Link>
         <Link className="nav-link" to="/Portal"></Link>
         <Link className="nav-link" to="/Search"></Link>
         <Link className="nav-link" to="/Services"></Link>
