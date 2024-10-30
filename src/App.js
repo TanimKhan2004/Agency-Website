@@ -17,7 +17,7 @@ function App() {
       {/* Main Navigation */}
       <Header />
       <nav className="App-nav">
-        <Link className="nav-link" to="/">Home</Link> 
+        <Link className="nav-link" to="/">Home</Link>
         <Link className="nav-link" to="/About">About</Link>
         <Link className="nav-link" to="/Abroad">Abroad</Link>
         <Link className="nav-link" to="/Courses">Courses</Link>
