@@ -1,14 +1,14 @@
 
 .App-header {
-  background-color: #ffffff;
-  min-height: 100vh;
+  max-width: 1500px; 
+  margin: 0 auto; 
+  padding: 20px; 
+  background-color: white; 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
   display: flex;
-  flex-direction: column;
+  flex-direction: column; 
   align-items: center;
-  font-size: calc(10px + 2vmin);
-  
 }
-
 .App-link {
   color: #61dafb;
 }
@@ -18,12 +18,10 @@ color: black;
 }
 
 .Official-logo {
-  width: 100px; /* Adjust width as needed */
-  height: auto; /* Maintains aspect ratio */
-  margin-top: 20px; /* Adds space above */
+  width: 50px; 
+  height: 50px; 
+  margin-top: 5%; 
 }
-
-
-.Menu {
-  color: rgb(144, 21, 21);
-  }
+.App-body {
+  border-top: 3px solid blueviolet; /* Border color and thickness */
+}

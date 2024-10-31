@@ -1,7 +1,16 @@
-import React from 'react';
+import React from "react";
+import "./About.css"; 
 
-const About = () => {
-  return <div></div>;
-};
+function About() {
+    const navigateToAbout = () => {
+        window.location.href = "http://localhost:3000/";
+    };
 
-export default About; // Default export
+    return (
+        <button id="About" onClick={navigateToAbout}>
+            About Us
+        </button>
+    );
+}
+
+export default About;

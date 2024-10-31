@@ -1,0 +1,20 @@
+#About {
+    position: absolute;
+    top: 20px;
+    left: 25.4%;
+    transform: translateX(-50%);
+    background-color: #ffffff;
+    color: blueviolet;
+    padding: 5px 10px;
+    text-decoration: none;
+    border: none; 
+    border-radius: 5px;
+    font-size: 17px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+#About:hover {
+    color: #ffffff;
+    background-color: blueviolet;
+}
