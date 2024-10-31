@@ -14,11 +14,15 @@
 }
 
 .Name {
-color: black;
-margin-top: 5%; 
+  color: black;
+  font-weight: bold; /* Makes the text bold */
+  font-family: 'Georgia', serif; /* Choose a fancy font */
+  font-size: 1.5em; /* Adjust font size for emphasis */
+  letter-spacing: 1px; /* Adds spacing between letters */
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3); /* Subtle shadow for depth */
   position: absolute;
   top: 80px;
-  left:10px;
+  left: 10px;
   margin: 0;
 }
 
