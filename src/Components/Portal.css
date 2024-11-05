@@ -1,13 +1,14 @@
+/* Portal Button */
 #Portal {
     position: absolute;
     top: 20px;
-    left: 67.20%;
+    left: 68.2%;
     transform: translateX(-50%);
     background-color: #ffffff;
     color: blueviolet;
     padding: 5px 10px;
     text-decoration: none;
-    border: none; 
+    border: none;
     border-radius: 5px;
     font-size: 17px;
     font-weight: bold;
@@ -17,4 +18,62 @@
 #Portal:hover {
     color: #ffffff;
     background-color: blueviolet;
+}
+
+/* Centered Form Styling */
+.student-form {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 15px 50px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    z-index: 1000;
+}
+
+/* Form Field Styling */
+.student-form label {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+/* Input Styling for Text, Email, and Number Fields */
+.student-form input[type="text"],
+.student-form input[type="email"],
+.student-form input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    font-size: 15px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Checkbox Styling */
+.student-form input[type="checkbox"] {
+    margin-right: 5px;
+    transform: scale(1.2); /* Makes the checkbox slightly larger */
+}
+
+/* Submit Button Styling */
+.student-form button[type="submit"] {
+    background-color: blueviolet;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 12px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 100%;
+}
+
+.student-form button[type="submit"]:hover {
+    background-color: #9a4fcc;
 }
