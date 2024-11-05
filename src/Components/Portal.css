@@ -2,7 +2,7 @@
 #Portal {
     position: absolute;
     top: 20px;
-    left: 67.20%;
+    left: 68.2%;
     transform: translateX(-50%);
     background-color: #ffffff;
     color: blueviolet;
@@ -29,7 +29,7 @@
     background-color: #ffffff;
     border: 1px solid #ddd;
     border-radius: 10px;
-    padding: 20px;
+    padding: 15px 50px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     width: 400px;
     z-index: 1000;
