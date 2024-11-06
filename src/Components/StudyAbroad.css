@@ -1,7 +1,7 @@
 .StudyAbroad-container {
     top: 20px;
     left: 34.7%;
-    position: relative; /* Keep position relative for dropdown */
+    position: absolute; /* Keep position relative for dropdown */
     display: inline-block; /* Keep container inline */
 }
 
