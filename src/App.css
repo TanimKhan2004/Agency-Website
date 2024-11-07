@@ -2,7 +2,7 @@
 .App-header {
   max-width: 1500px; 
   margin: 0 auto; 
-  padding: 20px; 
+  padding: 40px; 
   background-color: white; 
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
   display: flex;
@@ -35,6 +35,28 @@
   left:10px;
   margin: 0;
 }
+
 .App-body {
+  top: 200px; /* Move the entire section further down */
+  padding-top: 1000px; /* Adds additional space between the header and the body */
   border-top: 3px solid blueviolet; /* Border color and thickness */
+}
+
+
+.Contact {
+  color: black;
+  font-weight: bold; /* Makes the text bold */
+  position: absolute;
+  top: 120px; /* Adjust this value based on logo position */
+  left: 10px; /* Aligns with the logo's left position */
+  margin: 0;
+}
+
+.Contact2 {
+  color: black;
+  font-weight: bold; /* Makes the text bold */
+  position: absolute;
+  top: 140px; /* Adjust this value based on logo position */
+  left: 10px; /* Aligns with the logo's left position */
+  margin: 0;
 }

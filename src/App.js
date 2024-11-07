@@ -12,7 +12,11 @@ function App() {
       <header className="App-header">
         <img src={Officiallogo} alt="Official Logo" className="Official-logo" />
         <div className="Name">Budget Education and Consultancy</div>
+        <div className=" Contact"> +44(0)7377139885 </div>
+        <div className=" Contact2"> +44(0)7932337375 </div>
+        
       </header>
+
 
       {/* Main Navigation */}
       <Header />
