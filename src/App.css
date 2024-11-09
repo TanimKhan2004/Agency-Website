@@ -2,9 +2,8 @@
 .App-header {
   max-width: 1500px; 
   margin: 0 auto; 
-  padding: 20px; 
+  padding: 40px; 
   background-color: white; 
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
   display: flex;
   flex-direction: column; 
   align-items: center;
@@ -35,6 +34,49 @@
   left:10px;
   margin: 0;
 }
+
 .App-body {
+  top: 17px; /* Move the entire section further down */
+  padding-top: 1000px; /* Adds additional space between the header and the body */
   border-top: 3px solid blueviolet; /* Border color and thickness */
+  position: relative;
 }
+
+
+.Contact {
+  color: black;
+  font-weight: bold; /* Makes the text bold */
+  position: absolute;
+  top: 120px; /* Adjust this value based on logo position */
+  left: 10px; /* Aligns with the logo's left position */
+  margin: 0;
+}
+
+.Contact2 {
+  color: black;
+  font-weight: bold; /* Makes the text bold */
+  position: absolute;
+  top: 140px; /* Adjust this value based on logo position */
+  left: 10px; /* Aligns with the logo's left position */
+  margin: 0;
+}
+
+
+/* Icon CSS Start */
+.social-icons {
+  display: flex;
+  gap: 10px;
+  position: absolute; /* Position the icons absolutely */
+  top: 170px; /* Adjust this value to sit just below Contact2 */
+  left: 10px; /* Align with the Contact section */
+}
+
+.social-icons a {
+  color: #333;
+  transition: color 0.3s;
+}
+
+.social-icons a:hover {
+  color: #007bff; /* Adjust color on hover */
+}
+/* Icon CSS End */

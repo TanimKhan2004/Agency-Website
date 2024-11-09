@@ -3,6 +3,8 @@ import './App.css';
 import { Link, Outlet } from "react-router-dom"; 
 import Officiallogo from "./Assets/Officiallogo.jpg";
 import Header from "./Components/Header";
+import { FaFacebook, FaInstagram } from 'react-icons/fa';
+import { MdEmail, MdPhone } from 'react-icons/md';
 
 
 function App() {
@@ -12,7 +14,32 @@ function App() {
       <header className="App-header">
         <img src={Officiallogo} alt="Official Logo" className="Official-logo" />
         <div className="Name">Budget Education and Consultancy</div>
+        <div className=" Contact"> +44(0)7377139885 </div>
+        <div className=" Contact2"> +44(0)7932337375 </div>
+
+             {/* Social Media and Contact Icons */}
+             <div className="social-icons">
+          <a href="https://www.facebook.com/yourprofile" target="_blank" rel="noopener noreferrer">
+            <FaFacebook size={24} />
+          </a>
+          <a href="https://www.instagram.com/yourprofile" target="_blank" rel="noopener noreferrer">
+            <FaInstagram size={24} />
+          </a>
+          <a href="mailto:your-email@example.com">
+            <MdEmail size={24} />
+          </a>
+          <a href="tel:+447377139885">
+            <MdPhone size={24} />
+          </a>
+        </div>
+
+
+
+
+
+        
       </header>
+
 
       {/* Main Navigation */}
       <Header />
