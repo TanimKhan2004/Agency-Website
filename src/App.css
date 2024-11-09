@@ -35,6 +35,7 @@
   margin: 0;
 }
 .App-body {
+  top: 25px; 
   padding-top: 20px; /* Reduces the padding to bring content closer */
   border-top: 3px solid blueviolet; /* Keep the purple line */
   position: relative;
@@ -91,4 +92,19 @@
   width: 100%; /* Ensures images fill the container */
   height: auto;
   border-radius: 8px;
+}
+
+/* Make App container fill the entire viewport */
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Ensures the app takes the full viewport height */
+}
+
+/* Bottom navigation positioned at the very bottom */
+.App-bottom-nav {
+  background-color: #f8f9fa; /* Light background for contrast */
+  padding: 10px;
+  text-align: center;
+  border-top: 1px solid #e0e0e0; /* Optional border for separation */
 }

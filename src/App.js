@@ -2,6 +2,9 @@ import React from "react";
 import './App.css';
 import { Link, Outlet } from "react-router-dom"; 
 import Officiallogo from "./Assets/Officiallogo.jpg";
+import BMWF90M5 from "./Assets/BMWF90M5.jpg"; // Fixed import
+import McLaren720 from "./Assets/McLaren720.jpg";
+import Porsche718 from "./Assets/Porsche718.jpg";
 import Header from "./Components/Header";
 import { FaFacebook, FaInstagram } from 'react-icons/fa';
 import { MdEmail, MdPhone } from 'react-icons/md';
@@ -72,13 +75,13 @@ function App() {
           >
             {/* Add your images inside Carousel */}
             <div>
-              <img src="/path/to/image1.jpg" alt="Slide 1" />
+            <img src={BMWF90M5} alt="BMWF90M5" />
             </div>
             <div>
-              <img src="/path/to/image2.jpg" alt="Slide 2" />
+              <img src={McLaren720} alt="McLaren720" />
             </div>
             <div>
-              <img src="/path/to/image3.jpg" alt="Slide 3" />
+              <img src={Porsche718} alt="Porsche718" />
             </div>
             {/* Add more images as needed */}
           </Carousel>
