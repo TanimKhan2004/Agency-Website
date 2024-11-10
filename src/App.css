@@ -35,6 +35,7 @@
   margin: 0;
 }
 .App-body {
+  top: 25px; 
   padding-top: 20px; /* Reduces the padding to bring content closer */
   border-top: 3px solid blueviolet; /* Keep the purple line */
   position: relative;
@@ -81,14 +82,44 @@
 
 
 .slideshow-container {
-  width: 80%; /* Adjust the width as desired */
+  width: 100%; /* Adjust the width as desired */
   margin: 0 auto; /* Center the slideshow */
-  padding: 10px;
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
-  border: 2px solid purple; /* Adds border to the slideshow */
+
 }
 .carousel img {
   width: 100%; /* Ensures images fill the container */
   height: auto;
   border-radius: 8px;
+}
+
+/* Make App container fill the entire viewport */
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Ensures the app takes the full viewport height */
+}
+
+/* Bottom navigation positioned at the very bottom */
+.App-bottom-nav {
+  background-color: #f8f9fa; /* Light background for contrast */
+  padding: 10px;
+  text-align: center;
+  border-top: 1px solid #e0e0e0; /* Optional border for separation */
+}
+
+.carousel-item {
+  position: relative;
+}
+
+.carousel-message {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 1.5rem;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-align: center;
 }
