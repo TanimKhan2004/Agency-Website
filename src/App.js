@@ -75,13 +75,20 @@ function App() {
           >
             {/* Add your images inside Carousel */}
             <div>
-            <img src={BMWF90M5} alt="BMWF90M5" />
+            <img src={BMWF90M5} alt="BMWF90 M5" />
+			<div className="carousel-message">The Powerful BMW F90 M5</div>
             </div>
+
             <div>
-              <img src={McLaren720} alt="McLaren720" />
+              <img src={McLaren720} alt="McLaren 720" />
+			  <div className="carousel-message">Experience the Speed of McLaren 720</div>
             </div>
+
+
+
             <div>
-              <img src={Porsche718} alt="Porsche718" />
+              <img src={Porsche718} alt="Porsche 718" />
+			  <div className="carousel-message">Feel the Elegance of Porsche 718</div>
             </div>
             {/* Add more images as needed */}
           </Carousel>
