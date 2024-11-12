@@ -8,7 +8,7 @@ import Portal from "./Components/Portal";
 import Search from "./Components/Search";
 import Services from "./Components/Services";
 import Updates from "./Components/Updates";
-{/*import Terms from "./Components/Terms";*/}
+
 
 
 
@@ -24,7 +24,7 @@ export default function AppRouter(){
      <StudyAbroad/>
      <Cources/>
      <Updates/>
-     {/*<Terms/> */}
+
     <Routes>
       <Route path ={'/'} element = {<App/>}>
         <Route path = {'/Home'} element = {<Home/>}/> 
@@ -35,7 +35,7 @@ export default function AppRouter(){
         <Route path = {'/Search'} element = {<Search/>}/>
         <Route path = {'/Services'} element = {<Services/>}/> 
         <Route path = {'/Updates'} element = {<Updates/>}/>
-       {/* <Route path = {'/terms'} element = {<Terms/>}/> */}
+    
       </Route>
     </Routes>
   </Router>

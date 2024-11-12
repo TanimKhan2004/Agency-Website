@@ -1,7 +1,7 @@
 .search-container {
     position: absolute; /* Keep the absolute positioning */
-    top: 150px; 
-    left: 20%; 
+    top: 22px; 
+    right: 0%; 
     transform: translateX(-50%); /* Center the container correctly */
     display: flex; /* Use flexbox for alignment */
     align-items: center; 
@@ -30,7 +30,7 @@
     padding: 5px;
     border: 1px solid blueviolet;
     border-radius: 5px;
-    font-size: 17px;
+    font-size: 17px;    
     margin-left: 10px; 
     display: block; 
     width: 200px; /* Set a width for the input field */

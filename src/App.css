@@ -1,13 +1,15 @@
 
 .App-header {
-  max-width: 1500px; 
+  max-width: px; 
   margin: 0 auto; 
-  padding: 20px; 
+  padding: 40px; 
   background-color: white; 
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
   display: flex;
   flex-direction: column; 
   align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap; /* Allows wrapping on smaller screens */
+
 }
 .App-link {
   color: #61dafb;
@@ -36,5 +38,91 @@
   margin: 0;
 }
 .App-body {
-  border-top: 3px solid blueviolet; /* Border color and thickness */
+  top: 25px; 
+  padding-top: 20px; /* Reduces the padding to bring content closer */
+  border-top: 3px solid blueviolet; /* Keep the purple line */
+  position: relative;
+  margin-bottom: 20px; /* Space between App-body and slideshow */
+}
+
+.Contact {
+  color: black;
+  font-weight: bold; /* Makes the text bold */
+  position: absolute;
+  top: 120px; /* Adjust this value based on logo position */
+  left: 10px; /* Aligns with the logo's left position */
+  margin: 0;
+}
+
+.Contact2 {
+  color: black;
+  font-weight: bold; /* Makes the text bold */
+  position: absolute;
+  top: 140px; /* Adjust this value based on logo position */
+  left: 10px; /* Aligns with the logo's left position */
+  margin: 0;
+}
+
+
+/* Icon CSS Start */
+.social-icons {
+  display: flex;
+  gap: 10px;
+  position: absolute; /* Position the icons absolutely */
+  top: 170px; /* Adjust this value to sit just below Contact2 */
+  left: 10px; /* Align with the Contact section */
+}
+
+.social-icons a {
+  color: #333;
+  transition: color 0.3s;
+}
+
+.social-icons a:hover {
+  color: #007bff; /* Adjust color on hover */
+}
+/* Icon CSS End */
+
+
+.slideshow-container {
+  width: 100%; /* Adjust the width as desired */
+  margin: 0 auto; /* Center the slideshow */
+
+}
+.carousel img {
+  width: 100%; /* Ensures images fill the container */
+  height: auto;
+  border-radius: 8px;
+}
+
+/* Make App container fill the entire viewport */
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Ensures the app takes the full viewport height */
+}
+
+/* Bottom navigation positioned at the very bottom */
+.App-bottom-nav {
+  background-color: #f8f9fa; /* Light background for contrast */
+  padding: 10px;
+  text-align: center;
+  border-top: 1px solid #e0e0e0; /* Optional border for separation */
+}
+
+.carousel-item {
+  position: relative;
+}
+
+.carousel-message {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 1.5rem;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-align: center;
 }
