@@ -2,9 +2,9 @@ import React from "react";
 import './App.css';
 import { Link, Outlet } from "react-router-dom"; 
 import Officiallogo from "./Assets/Officiallogo.jpg";
-import BMWF90M5 from "./Assets/BMWF90M5.jpg"; // Fixed import
-import McLaren720 from "./Assets/McLaren720.jpg";
-import Porsche718 from "./Assets/Porsche718.jpg";
+import London from "./Assets/London.jpg"; // Fixed import
+import Australia from "./Assets/Australia.jpg";
+import Canada from "./Assets/Canada.jpg";
 import Header from "./Components/Header";
 import { FaFacebook, FaInstagram } from 'react-icons/fa';
 import { MdEmail, MdPhone } from 'react-icons/md';
@@ -63,35 +63,42 @@ function App() {
     
       {/* Body of the app */}
       <div className="App-body">
+
         {/* Slideshow Section */}
         <div className="slideshow-container">
-          <Carousel 
-            autoPlay 
-            infiniteLoop 
-            showThumbs={false} 
-            showStatus={false}
-            dynamicHeight={true}
-            className="carousel"
-          >
-            {/* Add your images inside Carousel */}
-            <div>
-            <img src={BMWF90M5} alt="BMWF90 M5" />
-			<div className="carousel-message">The Powerful BMW F90 M5</div>
-            </div>
+        <Carousel 
+  autoPlay 
+  infiniteLoop 
+  showThumbs={false} 
+  showStatus={false}
+  dynamicHeight={true}
+  className="carousel"
+>
 
-            <div>
-              <img src={McLaren720} alt="McLaren 720" />
-			  <div className="carousel-message">Experience the Speed of McLaren 720</div>
-            </div>
+  <div className="carousel-item">
+    <img src={London} alt="London" />
+    <div className="carousel-content">
+      <div className="carousel-message">Study in London</div>
+      <button className="apply-button">Apply Now</button>
+    </div>
+  </div>
 
+  <div className="carousel-item">
+    <img src={Canada} alt="Canada" />
+    <div className="carousel-content">
+      <div className="carousel-message">Study in Canada</div>
+      <button className="apply-button">Apply Now</button>
+    </div>
+  </div>
 
-
-            <div>
-              <img src={Porsche718} alt="Porsche 718" />
-			  <div className="carousel-message">Feel the Elegance of Porsche 718</div>
-            </div>
-            {/* Add more images as needed */}
-          </Carousel>
+  <div className="carousel-item">
+    <img src={Australia} alt="Australia" />
+    <div className="carousel-content">
+      <div className="carousel-message">Study in Sydney</div>
+      <button className="apply-button">Apply Now</button>
+    </div>
+  </div>
+</Carousel>
         </div>
       </div>
 
