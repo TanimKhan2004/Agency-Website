@@ -1,0 +1,19 @@
+/* src/Components/ConsultationBox.css */
+
+  .consultation-box {
+    width: 100%;
+    background-color: white; /* White background */
+    padding: 150px ; /* Adds padding above and below the lines */
+    text-align: center; /* Centers the text */
+    box-sizing: border-box; /* Ensures padding is included in total width */
+  }
+  
+  /* Line Styling */
+  .line {
+    border-top: 2px solid rgb(255, 255, 255); /* Adds a black line */
+    margin: 10px 0; /* Adds space between the lines */
+    padding: 5px 0; /* Adds space above and below the line */
+    font-size: 1.2rem; /* Adjust the font size */
+    color: rgb(255, 255, 255); /* Line text color */
+  }
+  

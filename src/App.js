@@ -7,6 +7,7 @@ import Slide from "./Components/Slide";
 import Icons from "./Components/icons"; // Import the Icons component
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import './Components/Slide.css';
+import ConsultationBox from "./Components/ConsultationBox";
 
 function App() {
   return (
@@ -44,12 +45,8 @@ function App() {
       {/* Body of the app */}
       <div className="App-body">
         <Slide />
-        <div className="consultation-box">
-          <div className="line">Line 1</div>
-          <div className="line">Line 2</div>
-          <div className="line">Line 3</div>
+        <ConsultationBox />
         </div>
-      </div>
 
       {/* Bottom Navigation */}
       <div className="App-bottom-nav">
