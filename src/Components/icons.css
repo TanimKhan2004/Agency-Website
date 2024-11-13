@@ -1,0 +1,15 @@
+/* src/Components/icons.css */
+.social-icons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .icon {
+    color: #333;
+    transition: color 0.3s;
+  }
+  
+  .icon:hover {
+    color: #0073e6;
+  }
+  
