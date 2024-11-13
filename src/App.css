@@ -42,6 +42,10 @@
   margin: 0;
 }
 
+.App-nav {
+  display: none;
+}
+
 /* Contact Information */
 .Contact, .Contact2 {
   color: black;
@@ -79,75 +83,12 @@
 
 /* App Body Section */
 .App-body {
-  padding-top: 20px;
+  margin-top: 20px;
+  padding-top: 0px;
   border-top: 3px solid blueviolet;
   position: relative;
   margin-bottom: 20px;
 }
-
-/* Slideshow Styling */
-.slideshow-container {
-  width: 100%;
-  margin: 0 auto;
-  height : 50%;
-}
-
-.carousel img {
-  width: 100%;
-  height: auto;
-}
-
-/* Carousel Message and Apply Button Styling */
-.carousel-item {
-  position: relative;
-}
-
-.carousel-message {
-  position: absolute;
-  top: 60%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: white;
-  font-size: 3.0rem;
-  padding: 5px 10px;
-  border-radius: 5px;
-  text-align: center;
-  z-index: 2;
-}
-.carousel-content {
-  position: absolute;
-  top: 75%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: white;
-  font-size: 1.5rem;
-  padding: 15px 25px;
-  border-radius: 8px;
-  text-align: center;
-  z-index: 10; /* Adequate to ensure visibility over image */
-  width: 50%; /* Adjust width as needed */
-}
-
-/* Apply Button Styling */
-.apply-button {
-  display: inline-block;
-  margin-top: 190px;
-  padding: 10px 20px;
-  background-color: #007bff;
-  color: white;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  font-weight: bold;
-  transition: background-color 0.3s ease;
-  text-align: center;
-  z-index: 11; /* Slightly higher than content for clear visibility */
-}
-
-.apply-button:hover {
-  background-color: #0056b3; /* Slightly darker blue on hover */
-}
-
 
 /* Bottom Navigation Styling */
 .App-bottom-nav {
@@ -166,4 +107,23 @@
 
 .nav-link:hover {
   color: #007bff;
+}
+
+
+/* White Box Styling */
+.consultation-box {
+  width: 100%;
+  background-color: white; /* White background */
+  padding: 150px ; /* Adds padding above and below the lines */
+  text-align: center; /* Centers the text */
+  box-sizing: border-box; /* Ensures padding is included in total width */
+}
+
+/* Line Styling */
+.line {
+  border-top: 2px solid rgb(255, 255, 255); /* Adds a black line */
+  margin: 10px 0; /* Adds space between the lines */
+  padding: 5px 0; /* Adds space above and below the line */
+  font-size: 1.2rem; /* Adjust the font size */
+  color: rgb(255, 255, 255); /* Line text color */
 }

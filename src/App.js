@@ -2,15 +2,12 @@ import React from "react";
 import './App.css';
 import { Link, Outlet } from "react-router-dom"; 
 import Officiallogo from "./Assets/Officiallogo.jpg";
-import London from "./Assets/London.jpg"; // Fixed import
-import Australia from "./Assets/Australia.jpg";
-import Canada from "./Assets/Canada.jpg";
 import Header from "./Components/Header";
 import { FaFacebook, FaInstagram } from 'react-icons/fa';
 import { MdEmail, MdPhone } from 'react-icons/md';
-import { Carousel } from 'react-responsive-carousel';
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // Import default styles for carousel
-
+import './Components/Slide.css';  // Correct path for Slide.css
+import Slide from "./Components/Slide";  // Import the Slide component
 
 function App() {
   return (
@@ -19,11 +16,11 @@ function App() {
       <header className="App-header">
         <img src={Officiallogo} alt="Official Logo" className="Official-logo" />
         <div className="Name">Budget Education and Consultancy</div>
-        <div className=" Contact"> +44(0)7377139885 </div>
-        <div className=" Contact2"> +44(0)7932337375 </div>
+        <div className="Contact">+44(0)7377139885</div>
+        <div className="Contact2">+44(0)7932337375</div>
 
-             {/* Social Media and Contact Icons */}
-             <div className="social-icons">
+        {/* Social Media and Contact Icons */}
+        <div className="social-icons">
           <a href="https://www.facebook.com/yourprofile" target="_blank" rel="noopener noreferrer">
             <FaFacebook size={24} />
           </a>
@@ -37,68 +34,37 @@ function App() {
             <MdPhone size={24} />
           </a>
         </div>
-
       </header>
-
 
       {/* Main Navigation */}
       <Header />
       <nav className="App-nav">
-        <Link className="nav-link" to="/"></Link>
-        <Link className="nav-link" to="/About"></Link>
-        <Link className="nav-link" to="/Abroad"></Link>
-        <Link className="nav-link" to="/StudyAbroad"></Link>
-        <Link className="nav-link" to="/Portal"></Link>
-        <Link className="nav-link" to="/Search"></Link>
-        <Link className="nav-link" to="/Services"></Link>
-        <Link className="nav-link" to="/Updates"></Link>
-        <Link className="nav-link" to="/Terms"></Link>
+        <Link className="nav-link" to="/">Home</Link>
+        <Link className="nav-link" to="/About">About</Link>
+        <Link className="nav-link" to="/Abroad">Abroad</Link>
+        <Link className="nav-link" to="/StudyAbroad">Study Abroad</Link>
+        <Link className="nav-link" to="/Portal">Portal</Link>
+        <Link className="nav-link" to="/Search">Search</Link>
+        <Link className="nav-link" to="/Services">Services</Link>
+        <Link className="nav-link" to="/Updates">Updates</Link>
+        <Link className="nav-link" to="/Terms">Terms</Link>
       </nav>
-
 
       {/* Main Content */}
       <main className="App-main">
         <Outlet /> {/* Outlet will render the child routes */}
       </main>
-    
+
       {/* Body of the app */}
       <div className="App-body">
+        {/* Add the Slide component here */}
+        
+        <Slide /> {/* Render the Slide component here */}
 
-        {/* Slideshow Section */}
-        <div className="slideshow-container">
-        <Carousel 
-  autoPlay 
-  infiniteLoop 
-  showThumbs={false} 
-  showStatus={false}
-  dynamicHeight={true}
-  className="carousel"
->
-
-  <div className="carousel-item">
-    <img src={London} alt="London" />
-    <div className="carousel-content">
-      <div className="carousel-message">Study in London</div>
-      <button className="apply-button">Apply Now</button>
-    </div>
-  </div>
-
-  <div className="carousel-item">
-    <img src={Canada} alt="Canada" />
-    <div className="carousel-content">
-      <div className="carousel-message">Study in Canada</div>
-      <button className="apply-button">Apply Now</button>
-    </div>
-  </div>
-
-  <div className="carousel-item">
-    <img src={Australia} alt="Australia" />
-    <div className="carousel-content">
-      <div className="carousel-message">Study in Sydney</div>
-      <button className="apply-button">Apply Now</button>
-    </div>
-  </div>
-</Carousel>
+        <div className="consultation-box">
+          <div className="line">Line 1</div>
+          <div className="line">Line 2</div>
+          <div className="line">Line 3</div>
         </div>
       </div>
 
