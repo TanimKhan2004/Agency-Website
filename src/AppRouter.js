@@ -10,8 +10,6 @@ import Services from "./Components/Services";
 import Updates from "./Components/Updates";
 
 
-
-
 export default function AppRouter(){
   return (
       
