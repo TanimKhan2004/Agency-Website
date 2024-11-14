@@ -1,76 +1,75 @@
-
-.App-header {
-  max-width: px; 
-  margin: 0 auto; 
-  padding: 40px; 
-  background-color: white; 
+/* General App Styling */
+.App {
   display: flex;
-  flex-direction: column; 
+  flex-direction: column;
+  min-height: 100vh; /* Ensures the app takes the full viewport height */
+}
+
+/* Header Section */
+.App-header {
+  max-width: 100%; /* Ensures header takes full width */
+  margin: 0 auto;
+  padding: 40px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap; /* Allows wrapping on smaller screens */
-
-}
-.App-link {
-  color: #61dafb;
 }
 
+/* Logo Styling */
+.Official-logo {
+  width: 70px;
+  height: 60px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  margin: 0;
+}
+
+/* Name Styling */
 .Name {
   color: black;
-  font-weight: bold; /* Makes the text bold */
-  font-family: 'Georgia', serif; /* Choose a fancy font */
-  font-size: 1.5em; /* Adjust font size for emphasis */
-  letter-spacing: 1px; /* Adds spacing between letters */
-  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3); /* Subtle shadow for depth */
+  font-weight: bold;
+  font-family: 'Georgia', serif;
+  font-size: 1.5em;
+  letter-spacing: 1px;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
   position: absolute;
   top: 80px;
   left: 10px;
   margin: 0;
 }
 
-.Official-logo {
-  width: 70px; 
-  height: 60px; 
-  margin-top: 5%; 
-  position: absolute;
-  top: 10px;
-  left:10px;
-  margin: 0;
+.App-nav {
+  display: none;
 }
-.App-body {
-  top: 25px; 
-  padding-top: 20px; /* Reduces the padding to bring content closer */
-  border-top: 3px solid blueviolet; /* Keep the purple line */
-  position: relative;
-  margin-bottom: 20px; /* Space between App-body and slideshow */
+
+/* Contact Information */
+.Contact, .Contact2 {
+  color: black;
+  font-weight: bold;
+  position: absolute;
+  left: 10px;
+  margin: 0;
 }
 
 .Contact {
-  color: black;
-  font-weight: bold; /* Makes the text bold */
-  position: absolute;
-  top: 120px; /* Adjust this value based on logo position */
-  left: 10px; /* Aligns with the logo's left position */
-  margin: 0;
+  top: 120px;
 }
 
 .Contact2 {
-  color: black;
-  font-weight: bold; /* Makes the text bold */
-  position: absolute;
-  top: 140px; /* Adjust this value based on logo position */
-  left: 10px; /* Aligns with the logo's left position */
-  margin: 0;
+  top: 140px;
 }
 
-
-/* Icon CSS Start */
+/* Social Media Icons */
 .social-icons {
   display: flex;
   gap: 10px;
-  position: absolute; /* Position the icons absolutely */
-  top: 170px; /* Adjust this value to sit just below Contact2 */
-  left: 10px; /* Align with the Contact section */
+  position: absolute;
+  top: 170px;
+  left: 10px;
 }
 
 .social-icons a {
@@ -79,50 +78,36 @@
 }
 
 .social-icons a:hover {
-  color: #007bff; /* Adjust color on hover */
-}
-/* Icon CSS End */
-
-
-.slideshow-container {
-  width: 100%; /* Adjust the width as desired */
-  margin: 0 auto; /* Center the slideshow */
-
-}
-.carousel img {
-  width: 100%; /* Ensures images fill the container */
-  height: auto;
-  border-radius: 8px;
+  color: #007bff;
 }
 
-/* Make App container fill the entire viewport */
-.App {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh; /* Ensures the app takes the full viewport height */
+/* App Body Section */
+.App-body {
+  margin-top: 20px;
+  padding-top: 0px;
+  border-top: 3px solid blueviolet;
+  position: relative;
+  margin-bottom: 20px;
 }
 
-/* Bottom navigation positioned at the very bottom */
+/* Bottom Navigation Styling */
 .App-bottom-nav {
-  background-color: #f8f9fa; /* Light background for contrast */
+  background-color: #f8f9fa;
   padding: 10px;
   text-align: center;
-  border-top: 1px solid #e0e0e0; /* Optional border for separation */
+  border-top: 1px solid #e0e0e0;
 }
 
-.carousel-item {
-  position: relative;
+.nav-link {
+  color: #333;
+  margin: 0 10px;
+  text-decoration: none;
+  font-weight: bold;
 }
 
-.carousel-message {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: white;
-  font-size: 1.5rem;
-  background: rgba(0, 0, 0, 0.5);
-  padding: 10px 20px;
-  border-radius: 5px;
-  text-align: center;
+.nav-link:hover {
+  color: #007bff;
 }
+
+
+/* White Box Styling */

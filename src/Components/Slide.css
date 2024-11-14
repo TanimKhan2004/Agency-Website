@@ -1,0 +1,70 @@
+
+  
+  /* Slideshow Styling */
+  .slideshow-container {
+    width: 100%;
+    margin: 0 auto;
+    height : 50%;
+  }
+  
+  .carousel img {
+    width: 100%;
+    height: auto;
+  }
+  
+  /* Carousel Message and Apply Button Styling */
+  .carousel-item {
+    position: relative;
+  }
+  /* Carousel Message Styling */
+  .carousel-message {
+    position: absolute;
+    top: 60%; /* Adjust to move the "Study in" text higher */
+    left: 50%;
+    transform: translateX(-50%); /* Only center horizontally */
+    color: white;
+    font-size: 2.7rem;
+    padding: 0px;
+    border-radius: 5px;
+    text-align: center;
+    z-index: 2;
+    width: 60%;
+    font-family: "Arial Black" ;
+    font-weight:bolder;
+    font-style:oblique;
+  }
+  
+  /* Carousel Content Styling */
+  .carousel-content {
+    position: absolute;
+    top: 35%; /* Adjust to move "Apply Now" button and surrounding content higher */
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    font-size: 1.5rem;
+    padding: 15px 25px;
+    border-radius: 8px;
+    text-align: center;
+    z-index: 10;
+    width: 50%; /* Adjust width as needed */
+  }
+  
+  /* Apply Button Styling */
+  .apply-button {
+    margin-top: 300px; /* Adds a little space below the text */
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    z-index: 11;
+  }
+  
+  
+  .apply-button:hover {
+    background-color: #0056b3; /* Slightly darker blue on hover */
+  }
+  
