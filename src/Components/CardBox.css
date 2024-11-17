@@ -1,0 +1,60 @@
+.card-container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;          /* Allow boxes to wrap */
+  justify-content: center;  /* Center horizontally */
+  align-items: flex-start;  /* Align items to the top */
+  padding: 0;               /* Remove padding for no extra space */
+  background-color: blueviolet;
+  min-height: 650px;        /* Increased height for more space */
+}
+
+.title-box {
+  width: 100%;
+  text-align: center;       /* Center the title */
+  padding: 0;               /* Remove extra padding */
+  background-color: blueviolet; /* Consistent background color */
+  color: white;
+  padding-top: 70px;        /* Add only top padding for spacing above */
+}
+
+.title-box h2 {
+  font-size: 2.5rem;        /* Larger font for the title */
+  margin: 0;                /* Remove default margin */
+  color: yellow;            /* Make the title pop */
+}
+
+.square-box {
+  flex: 1 1 33.33%;         /* Each box takes 1/3 of the row width */
+  height: calc(33.33vh - 50px); /* Dynamically adjust based on viewport */
+  background-color: blueviolet;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  border-radius: 0;         /* Remove border-radius for a flush layout */
+  text-align: center;
+  box-sizing: border-box;   /* Ensure padding doesn't affect the box size */
+  padding-left: 60px;            /* Adjust padding for consistent spacing */
+  padding-right: 60px;            
+  padding-bottom: 60px;
+  padding-top: 0px;
+  margin: 0;                /* Remove any default margin */
+  
+}
+
+.box-heading {
+  font-weight: bold;
+  font-size: 2rem;
+  margin-bottom: 10px;      /* Adjust spacing below the heading */
+  color: yellow;
+}
+
+.box-text {
+  font-size: 1.2rem;
+  margin: 0 auto;           /* Center-align the text within the box */
+  max-width: 70%;           /* Restrict the width of the text */
+  word-wrap: break-word;    /* Break long words to prevent overflow */
+  line-height: 1.5;         /* Improve readability by increasing line height */
+}
