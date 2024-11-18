@@ -9,6 +9,7 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 import './Components/Slide.css';
 import ConsultationBox from "./Components/ConsultationBox";
 import CardBox from "./Components/CardBox";
+import ServiceBox from "./Components/ServiceBox";
 
 function App() {
   return (
@@ -48,6 +49,7 @@ function App() {
         <Slide />
         <ConsultationBox />
         <CardBox />
+        <ServiceBox /> 
         </div>
 
       {/* Bottom Navigation */}

@@ -1,0 +1,98 @@
+.service-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column; /* Stack title and boxes vertically */
+    align-items: center;    /* Center the title horizontally */
+    padding: 20px;          /* Add some padding for spacing */
+    background-color: rgb(255, 255, 255);
+    min-height: 650px;      /* Increased height for more space */
+  }
+  
+  .service-title {
+    font-size: 34px;
+    font-weight: bold;
+    margin-bottom: 20px;    /* Add spacing below the title */
+    color: blueviolet;
+    text-align: center;     /* Center the text */
+  }
+  
+  .service-description {
+    font-size: 21px;
+    color: #000000;
+    margin-bottom: 39px;    /* Space below the description */
+    text-align: center;
+  }
+  
+  .service-boxes {
+    display: flex;
+    flex-wrap: wrap;         /* Allow boxes to wrap */
+    justify-content: center; /* Center boxes horizontally */
+    gap: 20px;               /* Space between boxes */
+    width: 100%;             /* Make boxes span the container width */
+  }
+  
+  .service-box {
+    flex: 1 1 200px;         /* Adjust size and spacing, minimum width of 200px */
+    max-width: 225px;        /* Restrict maximum width for uniformity */
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 15px;           /* Add padding inside the box */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    color: #555;
+    font-size: 16px;
+    text-align: center;      /* Center text inside the box */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition */
+  }
+  
+  .service-box:hover {
+    transform: translateY(-5px) scale(1.03); /* Add scaling effect */
+    background-color: #f9f9f9; /* Slightly change background */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .service-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px; /* Optional: round the corners of the image */
+    margin-bottom: 15px; /* Add space below image */
+  }
+  
+  .service-heading {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 15px;
+    color: blueviolet;
+  }
+  
+  .service-text {
+    font-size: 14px;
+    color: #666;
+    margin-top: 10px;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .service-box {
+      flex: 1 1 100%; /* Each box spans full width on small screens */
+      max-width: none; /* Remove max-width */
+      padding: 10px; /* Adjust padding for small screens */
+    }
+  
+    .service-heading {
+      font-size: 16px; /* Reduce font size of heading for smaller screens */
+    }
+  
+    .service-text {
+      font-size: 12px; /* Reduce font size of text for smaller screens */
+    }
+  
+    .service-title {
+      font-size: 20px; /* Adjust font size of title for smaller screens */
+    }
+  
+    .service-description {
+      font-size: 16px; /* Adjust font size of description for smaller screens */
+    }
+  }
+  
