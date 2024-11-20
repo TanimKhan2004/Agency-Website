@@ -16,7 +16,7 @@ function App() {
       {/* Header Section */}
       <header className="App-header">
         <img src={Officiallogo} alt="Official Logo" className="Official-logo" />
-        <div className="Name">Budget Education and Consultancy</div>
+        {/* <div className="Name">Budget Education and Consultancy</div> */}
         <div className="Contact">+44(0)7377139885</div>
         <div className="Contact2">+44(0)7932337375</div>
 
@@ -27,15 +27,15 @@ function App() {
       {/* Main Navigation */}
       <Header />
       <nav className="App-nav">
-        <Link className="nav-link" to="/">Home</Link>
-        <Link className="nav-link" to="/About">About</Link>
-        <Link className="nav-link" to="/Abroad">Abroad</Link>
-        <Link className="nav-link" to="/StudyAbroad">Study Abroad</Link>
-        <Link className="nav-link" to="/Portal">Portal</Link>
-        <Link className="nav-link" to="/Search">Search</Link>
-        <Link className="nav-link" to="/Services">Services</Link>
-        <Link className="nav-link" to="/Updates">Updates</Link>
-        <Link className="nav-link" to="/Terms">Terms</Link>
+        <Link className="nav-link" to="/"></Link>
+        <Link className="nav-link" to="/About"></Link>
+        <Link className="nav-link" to="/Abroad"></Link>
+        <Link className="nav-link" to="/StudyAbroad"></Link>
+        <Link className="nav-link" to="/Portal"></Link>
+        <Link className="nav-link" to="/Search"></Link>
+        <Link className="nav-link" to="/Services"></Link>
+        <Link className="nav-link" to="/Updates"></Link>
+        <Link className="nav-link" to="/Terms"></Link>
       </nav>
 
       {/* Main Content */}
