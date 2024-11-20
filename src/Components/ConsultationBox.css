@@ -17,3 +17,26 @@
     color: rgb(255, 255, 255); /* Line text color */
   }
   
+  /* src/Components/ConsultationBox.css */
+  
+  .consultation-content { 
+    padding: 20px;
+    background-color: #fff;
+    border: 2px solid blueviolet;
+    height: auto;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08), 0 0 15px rgba(0, 0, 0, 0.2);
+
+  }
+  
+  .consultation-content h2 {
+    font-size: 35px;
+    margin-bottom: 10px;
+    color: blueviolet;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  }
+  
+  .consultation-content p {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  

@@ -8,6 +8,7 @@ import Icons from "./Components/icons"; // Import the Icons component
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import './Components/Slide.css';
 import ConsultationBox from "./Components/ConsultationBox";
+import CardBox from "./Components/CardBox";
 
 function App() {
   return (
@@ -46,6 +47,7 @@ function App() {
       <div className="App-body">
         <Slide />
         <ConsultationBox />
+        <CardBox />
         </div>
 
       {/* Bottom Navigation */}
