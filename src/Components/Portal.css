@@ -1,8 +1,8 @@
 /* Portal Button */
 #Portal {
-    position: absolute;
-    top: 20px;
-    left: 68.2%;
+    position: relative;
+    top: -20px;
+    left: 72.5%;
     transform: translateX(-50%);
     background-color: #ffffff;
     color: blueviolet;
