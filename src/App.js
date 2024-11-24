@@ -5,10 +5,12 @@ import Officiallogo from "./Assets/Officiallogo.jpg";
 import Header from "./Components/Header";
 import Slide from "./Components/Slide";  
 import Icons from "./Components/icons"; // Import the Icons component
+import Footer from "./Components/Footer"; // Import the Footer component
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import './Components/Slide.css';
 import ConsultationBox from "./Components/ConsultationBox";
 import CardBox from "./Components/CardBox";
+import ServiceBox from "./Components/ServiceBox";
 
 function App() {
   return (
@@ -48,14 +50,11 @@ function App() {
         <Slide />
         <ConsultationBox />
         <CardBox />
-        </div>
-
-      {/* Bottom Navigation */}
-      <div className="App-bottom-nav">
-        <Link className="nav-link" to="/privacy">Privacy Policy</Link>
-        <Link className="nav-link" to="/terms">Terms of Use</Link>
-        <Link className="nav-link" to="/faq">FAQ</Link>
+        <ServiceBox /> 
       </div>
+
+      {/* Footer Section */}
+      <Footer />
     </div>
   );
 }
