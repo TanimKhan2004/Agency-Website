@@ -1,6 +1,6 @@
 .Cources-container {
-    top: 20px;
-    left: 54.5%;
+    top: 10px;
+    left: 59%;
     position: absolute; /* Keep position relative for dropdown */
     display: inline-block; /* Keep container inline */
 }

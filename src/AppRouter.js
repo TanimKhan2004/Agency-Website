@@ -25,14 +25,14 @@ export default function AppRouter(){
 
     <Routes>
       <Route path ={'/'} element = {<App/>}>
-        <Route path = {'/Home'} element = {<Home/>}/> 
-        <Route path = {'/About'} element = {<About/>}/>
-        <Route path = {'/Cources'} element = {<Cources/>}/>
-        <Route path = {'/StudyAbroad'} element = {<StudyAbroad/>}/>
-        <Route path = {'/Portal'} element = {<Portal/>}/>
-        <Route path = {'/Search'} element = {<Search/>}/>
-        <Route path = {'/Services'} element = {<Services/>}/> 
-        <Route path = {'/Updates'} element = {<Updates/>}/>
+        <Route path = {'/Home'}/> 
+        <Route path = {'/About'}/>
+        <Route path = {'/Cources'}/>
+        <Route path = {'/StudyAbroad'}/>
+        <Route path = {'/Portal'}/>
+        <Route path = {'/Search'}/>
+        <Route path = {'/Services'}/> 
+        <Route path = {'/Updates'}/>
     
       </Route>
     </Routes>
