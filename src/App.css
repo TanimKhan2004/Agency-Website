@@ -9,7 +9,7 @@
 .App-header {
   max-width: 100%; /* Ensures header takes full width */
   margin: 0 auto;
-  padding: 40px;
+  padding: 27px;
   background-color: white;
   display: flex;
   flex-direction: column;
@@ -83,7 +83,7 @@
 
 /* App Body Section */
 .App-body {
-  margin-top: 20px;
+  margin-top: 0px;
   padding-top: 0px;
   border-top: 3px solid blueviolet;
   position: relative;
