@@ -11,6 +11,8 @@ import './Components/Slide.css';
 import ConsultationBox from "./Components/ConsultationBox";
 import CardBox from "./Components/CardBox";
 import ServiceBox from "./Components/ServiceBox";
+import University from "./Components/University";
+import CoursesBox  from "./Components/CoursesBox";
 
 function App() {
   return (
@@ -51,6 +53,8 @@ function App() {
         <ConsultationBox />
         <CardBox />
         <ServiceBox /> 
+        <University/>
+        <CoursesBox/>
       </div>
 
       {/* Footer Section */}

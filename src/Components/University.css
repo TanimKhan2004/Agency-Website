@@ -1,0 +1,32 @@
+/* src/Components/University.css */
+.university-box {
+    background-color: #ffd500;
+    width: 100%;
+    display: flex;
+    flex-direction: column; /* Stack title and boxes vertically */
+    align-items: center;    /* Center the title horizontally */
+    padding: 20px;          /* Add some padding for spacing */
+    min-height: 650px;      /* Increased height for more space */
+  }
+  
+  .university-box h2 {
+    font-size: 1.8em;
+    margin-bottom: 15px;
+    color: #333;
+  }
+  
+  .university-box .university-images {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .university-box img {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    object-fit: cover;
+  }
+  
