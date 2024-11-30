@@ -13,6 +13,7 @@ import CardBox from "./Components/CardBox";
 import ServiceBox from "./Components/ServiceBox";
 import University from "./Components/University";
 import CoursesBox  from "./Components/CoursesBox";
+import FeedbackBox from "./Components/FeebackBox";
 
 function App() {
   return (
@@ -55,6 +56,7 @@ function App() {
         <ServiceBox /> 
         <University/>
         <CoursesBox/>
+        <FeedbackBox/>
       </div>
 
       {/* Footer Section */}
