@@ -3,7 +3,7 @@
     display: flex;
     flex-direction: column; /* Stack title and boxes vertically */
     align-items: center;    /* Center the title horizontally */
-    padding: 20px;          /* Add some padding for spacing */
+    padding: 0px;          /* Add some padding for spacing */
     background-color: rgb(255, 255, 255);
     min-height: 650px;      /* Increased height for more space */
   }

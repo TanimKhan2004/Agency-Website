@@ -5,6 +5,11 @@ import "./Footer.css";
 function Footer() {
   return (
     <footer className="App-footer">
+      {/* New Div for the Top Heading */}
+      <div className="footer-heading">
+        <h2>We are helping students globally</h2>
+      </div>
+
       <div className="footer-content">
         <div className="footer-section">
           <h4>London Office</h4>

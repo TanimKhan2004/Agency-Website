@@ -1,80 +1,101 @@
 /* Footer Styles */
 .App-footer {
-    background-color: #4b0082;
-    color: white;
-    padding: 40px 20px;
-    text-align: left;
-  }
-  
+  background-color: #4b0082;
+  color: white;
+  padding: 40px 20px;
+  text-align: center; /* Center text horizontally */
+  display: flex; /* Use flexbox to align items */
+  flex-direction: column; /* Stack content vertically */
+  justify-content: center; /* Center content vertically */
+  align-items: center; /* Center content horizontally */
+  width: 100%;
+}
+
+.footer-heading {
+
+  color: #ffd700; /* Gold color */
+  font-weight: 900; /* Very bold font weight */
+  font-size: 28px; /* Increase font size for emphasis */
+  text-align: center; /* Center the text */
+  margin-bottom: 20px;
+
+
+}
+.footer-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Center content horizontally */
+  align-items: center; /* Center items vertically */
+  gap: 20px; /* Add spacing between sections */
+}
+
+.footer-section {
+  flex: 1;
+  margin: 10px;
+  min-width: 200px;
+  text-align: center; /* Center text in each section */
+}
+
+.footer-section h4 {
+  font-size: 18px;
+  margin-bottom: 15px;
+  color: #ffd700;
+}
+
+.footer-section p {
+  margin: 5px 0;
+  font-size: 14px;
+}
+
+.footer-bottom {
+  margin-top: 20px;
+  border-top: 1px solid #ffd700;
+  padding-top: 20px;
+  text-align: center;
+  width: 100%; /* Ensure the border spans the entire width */
+}
+
+/* Footer Navigation Links */
+.footer-nav {
+  margin-top: 10px;
+}
+
+.footer-nav .nav-link {
+  color: #ffd700;
+  text-decoration: none;
+  margin: 0 10px;
+  font-size: 14px;
+}
+
+.footer-nav .nav-link:hover {
+  text-decoration: underline;
+}
+
+/* Responsive Footer Adjustments */
+@media (max-width: 768px) {
   .footer-content {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    flex-direction: column; /* Stack sections vertically on smaller screens */
+    align-items: center; /* Center-align each section */
   }
-  
+
   .footer-section {
-    flex: 1;
-    margin: 10px;
-    min-width: 200px;
+    margin-bottom: 20px;
   }
-  
-  .footer-section h4 {
-    font-size: 18px;
-    margin-bottom: 15px;
-    color: #ffd700;
-  }
-  
-  .footer-section p {
-    margin: 5px 0;
-    font-size: 14px;
-  }
-  
-  .footer-bottom {
-    margin-top: 20px;
-    border-top: 1px solid #ffd700;
-    padding-top: 20px;
-    text-align: center;
-  }
-  
-  .footer-nav {
-    margin-top: 10px;
-  }
-  
-  .footer-nav .nav-link {
-    color: #ffd700;
-    text-decoration: none;
-    margin: 0 10px;
-    font-size: 14px;
-  }
-  
-  .footer-nav .nav-link:hover {
-    text-decoration: underline;
-  }
-  
-  /* Responsive Footer Adjustments */
-  @media (max-width: 768px) {
-    .footer-content {
-      flex-direction: column;
-    }
-  
-    .footer-section {
-      margin-bottom: 20px;
-    }
-  }
-  
-  .location-button {
-    display: inline-block;
-    margin-top: 10px;
-    padding: 8px 12px;
-    background-color: #007bff; /* Button color */
-    color: #fff; /* Text color */
-    text-decoration: none;
-    border-radius: 4px;
-    font-size: 14px;
-    transition: background-color 0.3s;
-  }
-  
-  .location-button:hover {
-    background-color: #0056b3; /* Hover effect */
-  }
-  
+}
+
+/* Location Button Styles */
+.location-button {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 8px 12px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+  font-size: 14px;
+  transition: background-color 0.3s;
+}
+
+.location-button:hover {
+  background-color: #0056b3;
+}
