@@ -5,7 +5,7 @@ import { Carousel } from 'react-responsive-carousel';
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // Import default styles for carousel
 import London from "../Assets/London.jpg"; 
 import Australia from "../Assets/Australia.jpg";
-import Canada from "../Assets/Canada.jpg";
+// import Canada from "../Assets/Canada.jpg";
 
 function Slideshow() {
   return (
@@ -19,6 +19,8 @@ function Slideshow() {
         className="carousel"
       >
 
+{/* // Add Countries  */}
+
   <div className="carousel-item">
     <img src={London} alt="London" />
     <div className="carousel-content">
@@ -27,13 +29,13 @@ function Slideshow() {
     </div> 
   </div>
 
-  <div className="carousel-item">
+  {/* <div className="carousel-item">
     <img src={Canada} alt="Canada" />
     <div className="carousel-content">
       <div className="carousel-message">Study in Canada</div>
       <button className="apply-button">Apply Now</button>
     </div>
-  </div>
+  </div> */}
 
   <div className="carousel-item">
     <img src={Australia} alt="Australia" />
